@@ -16,6 +16,11 @@ const addEventOnElem = function (elem, type, callback) {
   }
 }
 
+//copy text to clipboard
+function copyTextClip(txt) {
+  navigator.clipboard.writeText(txt);
+}
+
 
 
 /**
